@@ -69,7 +69,6 @@ Joystick	jstk;
 //色
 static	Color	foreColor(0xFF, 0xFF, 0xFF);
 static	Color	bgColor(0x00, 0x00, 0x00);
-static	Color	colBreak(0xFF, 0xFF, 0x00);
 
 //定数
 static	constexpr	gpio_num_t
@@ -89,7 +88,7 @@ void	setup(void)
 
 	jstk.Initialize(PinX, PinY, true, true, 3, 8, PinSwP, PinSwA, PinSwB, PinSwC);
 
-	app.Setup(lcd, jstk, foreColor, bgColor, colBreak);
+	app.Setup(lcd, jstk, foreColor, bgColor);
 }
 
 void	loop(void)

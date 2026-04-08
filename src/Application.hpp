@@ -28,7 +28,6 @@ private:
 	GLcd* lcd = nullptr;
 	Joystick*	jstk = nullptr;
 	Color	*foreColor = nullptr, *bgColor = nullptr;
-	Color	*colBreak = nullptr;
 	OpMode	opMode;
 
 	int16_t	cursorX, cursorY;	//画面座標
@@ -69,6 +68,6 @@ private:
 
 public:
 	Application() {}
-	void	Setup(GLcd& lcd, Joystick& jstk, Color& foreColor, Color& bgColor, Color& colBreak);
+	void	Setup(GLcd& lcd, Joystick& jstk, Color& foreColor, Color& bgColor);
 	void	Loop();
 };

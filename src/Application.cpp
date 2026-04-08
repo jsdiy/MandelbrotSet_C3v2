@@ -2,12 +2,11 @@
 
 #include "Application.hpp"
 
-void	Application::Setup(GLcd& lcd, Joystick& jstk, Color& foreColor, Color& bgColor, Color& colBreak)
+void	Application::Setup(GLcd& lcd, Joystick& jstk, Color& foreColor, Color& bgColor)
 {
 	this->lcd = &lcd;
 	this->foreColor = &foreColor;
 	this->bgColor = &bgColor;
-	this->colBreak = &colBreak;
 	this->jstk = &jstk;
 
 	using Key = Joystick::KeyCode;
