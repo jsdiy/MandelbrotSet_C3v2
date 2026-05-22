@@ -37,5 +37,5 @@
 ## サンプル画像
 ![サンプル](https://github.com/jsdiy/MandelbrotSet_C3v2/blob/main/sample/IMG_20260407_213232.jpg)
 ![サンプル](https://github.com/jsdiy/MandelbrotSet_C3v2/blob/main/sample/IMG_20260315_212731.jpg)
-![サンプル](https://github.com/jsdiy/MandelbrotSet_C3v2/blob/main/sample/IMG_20260521_175249.jpg)
 ![サンプル](https://github.com/jsdiy/MandelbrotSet_C3v2/blob/main/sample/IMG_20260521_174148.jpg)
+![サンプル](https://github.com/jsdiy/MandelbrotSet_C3v2/blob/main/sample/IMG_20260521_175249.jpg)
